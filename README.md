@@ -15,3 +15,8 @@ Java + JDBC based Student Management System with Oracle/MySQL database integrati
 - JDBC
 - Oracle/MySQL
 
+## Setup
+1. Import `Student_db.sql` into your database.
+2. Update DB credentials in `DBConnection.java`.
+3. Run `Main.java`.
+
