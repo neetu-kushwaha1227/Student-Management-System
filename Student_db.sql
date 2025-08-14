@@ -1,3 +1,9 @@
+--Create Database 
+
+CREATE DATABASE student_db;
+
+USE student_db;
+
 --Create a Student table
 
 CREATE TABLE Student (
@@ -9,4 +15,5 @@ CREATE TABLE Student (
 );
 
 --Insert data 
+
 Insert INTO Student(SNAME,SPER,SCLASS,GENDER) values('Ronak',67,'Viii','Male');
