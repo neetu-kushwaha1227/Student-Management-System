@@ -12,7 +12,7 @@ public class DBConnection {
 	   public static Connection getConnection() throws Exception{
 	        Connection conn = null;
 	        try {
-	            Class.forName("oracle.jdbc.driver.OracleDriver"); // Oracle driver
+	           Class.forName("com.mysql.cj.jdbc.Driver");
 	            conn = DriverManager.getConnection("URL","USER","PASSWORD");
 	            conn.setAutoCommit(true); // auto-commit ON for Oracle
 	        } catch (SQLException e) {
@@ -22,4 +22,5 @@ public class DBConnection {
 	    }
 
 }
+
 
